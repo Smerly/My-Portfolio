@@ -1,0 +1,29 @@
+.arrow {
+	position: absolute;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px dotted rgb(255, 255, 255);
+	bottom: 5%;
+	animation: arrowtaunt infinite 1s linear;
+}
+
+/* .arrow {
+	position: absolute;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px dotted rgb(255, 255, 255);
+	top: 5%;
+	animation: arrowtaunt infinite 1s linear;
+} */
+
+@keyframes arrowtaunt {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}

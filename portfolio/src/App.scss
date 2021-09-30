@@ -26,3 +26,49 @@ main {
 h1 {
 	color: $my-primary;
 }
+
+// .fade-appear,
+// .fade-enter {
+// 	transform: translateY(100%);
+// }
+// .fade-appear-active,
+// .fade-enter.fade-enter-active {
+// 	transform: translateY(0);
+// 	transition: transform 500ms linear;
+// }
+
+// .fade-exit {
+// 	transform: translateY(0);
+// 	transition: transform 500ms linear;
+// }
+
+// .fade-exit.fade-exit-active {
+// 	transform: translateY(-200%);
+// 	transition: transform 500ms linear;
+// }
+
+// -------
+
+// Below is Main animating in
+
+.slide-appear,
+.slide-enter {
+	transform: translateY(200%);
+	transition: transform 1000ms;
+}
+.slide-appear-active,
+.slide-enter.slide-enter-active {
+	transform: translateY(0%);
+	transition: transform 1000ms;
+}
+
+// Below is Hero animating out
+.slide-exit {
+	transform: translateY(0%);
+	transition: transform 1000ms;
+}
+
+.slide-exit.slide-exit-active {
+	transform: translateY(-200%);
+	transition: transform 1000ms;
+}

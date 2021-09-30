@@ -24,4 +24,26 @@ h1 {
   color: #303052;
 }
 
+.slide-appear,
+.slide-enter {
+  transform: translateY(200%);
+  transition: transform 1000ms;
+}
+
+.slide-appear-active,
+.slide-enter.slide-enter-active {
+  transform: translateY(0%);
+  transition: transform 1000ms;
+}
+
+.slide-exit {
+  transform: translateY(0%);
+  transition: transform 1000ms;
+}
+
+.slide-exit.slide-exit-active {
+  transform: translateY(-200%);
+  transition: transform 1000ms;
+}
+
 /*# sourceMappingURL=App.css.map */
