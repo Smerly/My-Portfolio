@@ -12,17 +12,7 @@ function App() {
 	const location = useLocation();
 	return (
 		<div className="App">
-			{/* <Switch>
-				<SlideRoutes
-					location={location}
-					animation="vertical-slide"
-					pathList={[Hero, Main]}
-				>
-					<Route path="/main" component={Main} />
-					<Route exact path="/" component={Hero} />
-				</SlideRoutes>
-			</Switch> */}
-			<Route
+			{/* <Route
 				render={({ location }) => (
 					<TransitionGroup>
 						<CSSTransition timeout={1000} classNames="slide" key={location.key}>
@@ -33,7 +23,10 @@ function App() {
 						</CSSTransition>
 					</TransitionGroup>
 				)}
-			/>
+			/> */}
+			<Switch>
+				<Route exact path="/" component={Main} />
+			</Switch>
 		</div>
 	);
 }

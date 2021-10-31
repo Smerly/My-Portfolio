@@ -1,10 +1,401 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,300;1,500&display=swap');
+.prof-img {
+  height: 30vh;
+  border-radius: 1000px;
+  border: 1px lightgray solid;
+}
+
+.arrow2 {
+  position: absolute;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px dotted #3b3b68;
+  animation: arrowtaunt infinite 1s linear;
+}
+
+.arrow3 {
+  position: absolute;
+  margin-top: 53vh;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px dotted #3b3b68;
+  transition: 0.2s;
+}
+
+.arrow3:hover {
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px dotted #d6e8ff;
+}
+
+@keyframes arrowtaunt {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .intro {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-c {
+  color: #3b3b68;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10vh;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vh;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+}
+
+.n2m {
+  margin-top: -1vh;
+  font-size: 2.5vh;
+}
+
+.separation-line {
+  border: 2px black solid;
+  width: 70vw;
+}
+
+.mainborder {
+  border: 15px #3b3b68 solid;
+}
+
+.divider {
+  border: 9px #3b3b68 solid;
+  width: 100vw;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.bg2 {
+  background-color: #3b3b68;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondary-c {
+  color: #d6e8ff;
+}
+
+.title-margin {
+  margin-top: 18vh;
+}
+
+.sec-2-resp {
+  font-size: 2.5vh;
+}
+
+.resp-tech-projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: "center";
+}
+
+button.card {
+  border-top: 1px #3b3b68 solid;
+  border-bottom: 1px #3b3b68 solid;
+  border-right: 1px transparent;
+  border-left: 1px transparent;
+  width: 20vw;
+  height: 40vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfc;
+  transition: 0.1s;
+}
+
+button.card:hover {
+  background-color: #d6e8ff;
+  border-top: 6px #3b3b68 solid;
+  border-bottom: 6px #3b3b68 solid;
+}
+button.card:hover .arrow4 {
+  display: inline;
+}
+button.card:hover .arrow5 {
+  display: inline;
+}
+
+div.card {
+  border-top: 6px #3b3b68 solid;
+  border-bottom: 6px #3b3b68 solid;
+  border-right: 1px transparent;
+  border-left: 1px transparent;
+  width: 30vw;
+  height: 70vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d6e8ff;
+  transition: 0.1s;
+}
+
+.card-img {
+  width: 13vw;
+  height: auto;
+}
+
+.card-img2 {
+  width: 13vw;
+  height: auto;
+}
+
+.card-img-container {
+  width: 20vw;
+  height: auto;
+}
+
+.outside-card {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dual-div {
+  height: 65vh;
+  background-color: red;
+}
+
+.live-link-ins {
+  font-size: 2vh;
+}
+
+.triage {
+  font-size: 3vh;
+}
+
+.header2 {
+  font-size: 4vh;
+  margin-top: -10;
+  padding-bottom: 2vh;
+  border-bottom: 1px black solid;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.header3 {
+  font-size: 2.7vh;
+  margin-top: 3vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.header-resp {
+  width: 50vw;
+}
+
+.responsive-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.dualwielder-sec {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools-langs {
+  font-size: 2.7vh;
+}
+
+.tools-langs2 {
+  font-size: 2.7vh;
+}
+
+@media only screen and (max-height: 768px) {
+  .bg2 {
+    height: 150vh;
+  }
+
+  .sec-2-resp {
+    font-size: 15px;
+  }
+
+  .arrow2 {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px dotted #3b3b68;
+  }
+
+  button.card {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  div.card {
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .live-link-ins {
+    font-size: 12px;
+  }
+
+  .triage {
+    display: none;
+  }
+
+  .card-img2 {
+    width: 10vw;
+  }
+
+  .card-img {
+    width: 10vw;
+  }
+
+  .header-resp {
+    width: 80vw;
+  }
+
+  .dualwielder-sec {
+    height: 250vh;
+  }
+
+  div.card {
+    height: 80vh;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .bg2 {
+    height: 170vh;
+  }
+
+  .sec-2-resp {
+    font-size: 15px;
+  }
+
+  .mond-big {
+    font-size: 20px;
+  }
+
+  .arrow2 {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px dotted #3b3b68;
+  }
+
+  .tools-langs2 {
+    font-size: 4vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header2 {
+    padding-right: 0vw;
+    padding-left: 0vw;
+    font-size: 2.5vh;
+  }
+
+  .header3 {
+    padding-right: 0vw;
+    padding-left: 0vw;
+    font-size: 2vh;
+  }
+
+  .resp-tech-projects {
+    min-height: 120vh;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .card-img2 {
+    width: 4vw;
+  }
+
+  .header2 {
+    font-size: 2.2vw;
+  }
+
+  .header3 {
+    font-size: 2vw;
+  }
+
+  .dualwielder-sec {
+    height: 250vh;
+  }
+
+  div.card {
+    height: 100vh;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .resp-tech-projects {
+    min-height: 160vh;
+  }
+
+  .sec-2-resp {
+    font-size: 10px;
+  }
+
+  .arrow3 {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px dotted #3b3b68;
+  }
+
+  .arrow3:hover {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px dotted #d6e8ff;
+  }
+
+  .responsive-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+  }
+
+  .tools-langs {
+    font-size: 5vh;
+  }
+}
+@media only screen and (min-height: 770px) and (max-width: 830px) {
+  .arrow3 {
+    margin-top: 60vh;
+  }
 }
 
 /*# sourceMappingURL=Main.css.map */

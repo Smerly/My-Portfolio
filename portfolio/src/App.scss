@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,800&display=swap');
 
 $my-primary: rgb(48, 48, 82);
 $my-secondary: #d6e8ff;
 
 main {
 	font-family: 'Montserrat', sans-serif;
+	background-color: white;
 }
 .App {
 	text-align: center;
+	background-color: white;
+}
+
+.mond-small {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.mond-big {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: $my-primary;
 }
 
 #sec-hero {
