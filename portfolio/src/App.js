@@ -24,9 +24,10 @@ function App() {
 					</TransitionGroup>
 				)}
 			/> */}
-			<Switch>
+			<Main />
+			{/* <Switch>
 				<Route exact path="/" component={Main} />
-			</Switch>
+			</Switch> */}
 		</div>
 	);
 }
