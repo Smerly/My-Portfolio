@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Hashrouter as Router, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import SlideRoutes from 'react-slide-routes';
 // Components
