@@ -13,7 +13,7 @@ function DualWielder() {
 
 			{/* Img */}
 
-			<div className="dual-div"></div>
+			{/* <div className="dual-div"></div> */}
 
 			{/* Tech Skills */}
 
@@ -72,7 +72,7 @@ function DualWielder() {
 
 				{/* Art */}
 
-				<div
+				{/* <div
 					style={{
 						display: 'flex',
 						flexDirection: 'column',
@@ -91,7 +91,7 @@ function DualWielder() {
 						Check out my art below!
 					</h3>
 					<div className="arrow2" style={{ marginTop: '15vh' }}></div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
