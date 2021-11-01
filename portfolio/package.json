@@ -1,6 +1,6 @@
 {
 	"homepage": "https://smerly.github.io/My-Portfolio/",
-	"name": "portfolio",
+	"name": "My-Portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
