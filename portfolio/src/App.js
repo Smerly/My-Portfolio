@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Hashrouter as Router, Route, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import SlideRoutes from 'react-slide-routes';
 // Components
@@ -24,10 +24,10 @@ function App() {
 					</TransitionGroup>
 				)}
 			/> */}
-			<Main />
-			{/* <Switch>
+			{/* <Main /> */}
+			<Router>
 				<Route exact path="/" component={Main} />
-			</Switch> */}
+			</Router>
 		</div>
 	);
 }

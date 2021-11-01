@@ -14,7 +14,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<BrowserRouter>
-		<Route path="/" component={App} />
+		{/* <Route path="/" component={App} /> */}
+		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
 );
