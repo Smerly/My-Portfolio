@@ -2,7 +2,7 @@ import '../Main.css';
 
 function DualWielder() {
 	return (
-		<section className="dualwielder-sec">
+		<section className="dualwielder-sec dualwielder">
 			<h2 className="mond-big title-margin"> I'm A Dual-Wielder! </h2>
 			<p className="primary-c mond-small header-resp sec-2-resp ">
 				Along with my technical skills, I have experience in the visual arts and

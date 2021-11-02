@@ -18,7 +18,7 @@ function Work() {
 	};
 	return (
 		<section
-			className="resp-tech-projects"
+			className="resp-tech-projects work"
 			style={{ display: 'flex', alignItems: 'center' }}
 		>
 			<h2 className="mond-big primary-c title-margin"> My Work </h2>

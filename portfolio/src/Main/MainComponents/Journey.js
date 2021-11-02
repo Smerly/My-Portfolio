@@ -2,7 +2,7 @@ import '../Main.css';
 
 function Journey() {
 	return (
-		<section className="bg2">
+		<section className="bg2 journey">
 			<h2 className="secondary-c mond-big" style={{ marginBottom: '7vh' }}>
 				{' '}
 				My Journey So Far
