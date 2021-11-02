@@ -105,21 +105,22 @@ function Work() {
 
 				{/*   OmniConnx Card   */}
 				<div className="outside-card">
-					<button className="card" onClick={() => handleLink('')}>
+					<button
+						className="card"
+						onClick={() => handleLink('https://github.com/OmniConnx/OmniConnx')}
+					>
 						<div className="card-img-container">
 							<img src={OmniConnx} className="card-img" alt="OmniConnx logo" />
 						</div>
 					</button>
 					<h6 className="mond-small live-link-ins" style={{ margin: '2vh' }}>
-						{' '}
-						Click above for the live link <br /> or <br /> click below to read
-						about this project.
+						This project is currently not live. Check out the repo above!
 					</h6>
-					<a
+					{/* <a
 						className="arrow3"
 						onClick={() => handleLink('https://github.com/OmniConnx/OmniConnx')}
 						href="#"
-					></a>
+					></a> */}
 				</div>
 			</div>
 		</section>
