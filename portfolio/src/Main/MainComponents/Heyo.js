@@ -4,7 +4,10 @@ import me from '../../static/images/MyTempPic.jpeg';
 function Heyo() {
 	return (
 		<section className="intro" style={{ minHeight: '120vh' }}>
-			<img src={me} className="prof-img" />
+			<img
+				src="https://cdn.discordapp.com/attachments/584882522211483754/1031743640315363348/DSC07946.JPG"
+				className="prof-img"
+			/>
 			<h1 style={{ marginBottom: '2vh' }} className="primary-c mond-big">
 				{' '}
 				Heyo!{' '}
