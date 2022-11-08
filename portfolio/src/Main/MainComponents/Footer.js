@@ -6,7 +6,7 @@ function Footer() {
 		window.open(`${link}`);
 	};
 	return (
-		<div class="bg2">
+		<div className="bg2" style={{ height: 400 }}>
 			<div className="footer-flex">
 				{/* <img src={Triage} style={{ width: 90 }} /> */}
 				<div
@@ -41,7 +41,7 @@ function Footer() {
 				<div className="footer-row">
 					<a
 						href="#"
-						className="secondary-c mond-big"
+						className="footer-links secondary-c mond-big"
 						onClick={() => {
 							scroller.scrollTo('journey', {
 								duration: 1000,
@@ -54,7 +54,7 @@ function Footer() {
 					</a>
 					<a
 						href="#"
-						className="secondary-c mond-big"
+						className="footer-links secondary-c mond-big"
 						onClick={() => {
 							scroller.scrollTo('work', {
 								duration: 1000,
@@ -74,7 +74,7 @@ function Footer() {
 							});
 						}}
 						href="#"
-						className="secondary-c mond-big"
+						className="footer-links secondary-c mond-big"
 					>
 						Skills
 					</a>
@@ -83,7 +83,7 @@ function Footer() {
 							handleLink('https://github.com/Smerly/My-Portfolio');
 						}}
 						href="#"
-						className="secondary-c mond-big"
+						className="footer-links secondary-c mond-big"
 					>
 						Source Code
 					</a>
