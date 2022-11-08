@@ -7,6 +7,7 @@ import Heyo from './MainComponents/Heyo';
 import Journey from './MainComponents/Journey';
 import Work from './MainComponents/Work';
 import DualWielder from './MainComponents/DualWielder';
+import Footer from './MainComponents/Footer';
 
 function Main() {
 	return (
@@ -17,6 +18,7 @@ function Main() {
 			<Work />
 			<div className="divider"></div>
 			<DualWielder />
+			<Footer />
 		</div>
 	);
 }

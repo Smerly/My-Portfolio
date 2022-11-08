@@ -1,5 +1,4 @@
 import '../Main.css';
-import me from '../../static/images/MyTempPic.jpeg';
 
 function Heyo() {
 	return (

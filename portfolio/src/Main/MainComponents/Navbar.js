@@ -1,17 +1,34 @@
 import '../Main.css';
+import { useScrollPosition } from './hooks/useScrollPosition';
 import { scroller } from 'react-scroll';
-import me from '../../static/images/MyTempPic.jpeg';
+import { Popover } from '@headlessui/react';
+
+function classNames(...classes) {
+	return classes.filter(Boolean).join(' ');
+}
 
 function Navbar() {
+	const scrollPosition = useScrollPosition();
+	console.log(scrollPosition);
 	return (
-		<div>
-			<ul className="navbar-items">
-				{/* <img src={me} className="prof-img2" /> */}
+		<Popover
+			className={classNames(
+				scrollPosition > 15 ? '' : 'shadow-none',
+				'transition-shadow navbar-items2 top-0'
+			)}
+		>
+			{scrollPosition > 15 ? <div className="arrow5" /> : null}
+			<div
+				className={classNames(
+					scrollPosition > 15 ? 'bg-white bordered' : 'shadow-none',
+					'transition-shadow navbar-items top-0'
+				)}
+			>
 				<a
 					href="#"
 					onClick={() => {
 						scroller.scrollTo('journey', {
-							duration: 100,
+							duration: 1000,
 							delay: 0,
 							smooth: 'easeInOutQuart',
 						});
@@ -24,7 +41,7 @@ function Navbar() {
 					href="#"
 					onClick={() => {
 						scroller.scrollTo('work', {
-							duration: 100,
+							duration: 1000,
 							delay: 0,
 							smooth: 'easeInOutQuart',
 						});
@@ -37,7 +54,7 @@ function Navbar() {
 					href="#"
 					onClick={() => {
 						scroller.scrollTo('dualwielder', {
-							duration: 100,
+							duration: 1000,
 							delay: 0,
 							smooth: 'easeInOutQuart',
 						});
@@ -46,8 +63,9 @@ function Navbar() {
 				>
 					<li className="mond-big navbar-item">My Skills</li>
 				</a>
-			</ul>
-		</div>
+			</div>
+			{scrollPosition > 15 ? <div className="arrow6" /> : null}
+		</Popover>
 	);
 }
 
