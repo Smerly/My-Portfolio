@@ -12,8 +12,18 @@ import MangaLIVE from '../../static/images/Manga-LIVE2.png';
 import Triage from '../../static/images/triageLogo.png';
 import OmniConnx from '../../static/images/OmniConnx.png';
 import Multitask from '../../static/images/MultiTask_Logo.png';
+import { useState, useLayoutEffect } from 'react';
 
 function Work() {
+	const [size, setSize] = useState({width: window.innerWidth, height: window.innerHeight})
+	useLayoutEffect(() => {
+		// add an event listener for the window.
+			// if the event 'resize' happened to window, then run function to update
+			return window.addEventListener('resize', () => {
+				setSize({width: window.innerWidth, height: window.innerHeight})
+			})
+		}, [])
+	console.log(size)
 	const handleLink = (link) => {
 		window.open(`${link}`);
 	};
@@ -30,11 +40,7 @@ function Work() {
 			</header>
 
 			<div
-				style={{
-					display: 'flex',
-					flexDirection: 'row',
-					marginTop: '10vh',
-				}}
+				className={size.width > 1250 ? 'cards work' : 'cards-resized work'}
 			>
 				{/*   Multitask Card   */}
 				<div className="outside-card">

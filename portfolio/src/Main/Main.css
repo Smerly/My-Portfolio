@@ -6,9 +6,8 @@
   text-decoration: none;
   font-weight: 600;
   transition: 0.2s;
-  font-size: 1.3vw;
-  margin-right: 1vw;
-  margin-left: 1vw;
+  font-size: 1.5rem;
+  margin: 1vw;
 }
 
 .navbar-item:hover {
@@ -154,7 +153,26 @@ li {
   font-size: 2.5vh;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh;
+}
+
+.cards-resized {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
 .resp-tech-projects {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: "center";
+}
+
+.resp-tech-projects-resized {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -292,8 +310,8 @@ div.card {
   align-items: center;
   position: sticky;
   padding: 3%;
-  width: 38vw;
-  height: 12vh;
+  width: 50vw;
+  height: 10vh;
   margin-top: 5px;
   right: 10%;
 }
@@ -316,8 +334,12 @@ div.card {
 }
 
 .bordered {
-  border: 4px #d6e8ff solid;
+  border: 4px solid;
   transition: 0.2s;
+  border-radius: 6px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(90deg, #d6e8ff 0%, #6493c7 50%, #d6e8ff 100%);
 }
 
 .footer-row {
@@ -388,6 +410,11 @@ div.card {
 @media only screen and (max-width: 1000px) {
   .border-skills-work {
     width: 20vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-item {
+    font-size: 0.9rem;
   }
 }
 @media only screen and (max-height: 768px) {
