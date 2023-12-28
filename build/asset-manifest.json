@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.b4d2e898.css",
+    "main.js": "/My-Portfolio/static/js/main.67953752.js",
+    "static/js/787.48fbe5ec.chunk.js": "/My-Portfolio/static/js/787.48fbe5ec.chunk.js",
+    "static/media/triageLogo.png": "/My-Portfolio/static/media/triageLogo.be59ba69f005d66177e3.png",
+    "static/media/Manga-LIVE2.png": "/My-Portfolio/static/media/Manga-LIVE2.b291748b2230057883bc.png",
+    "static/media/OmniConnx.png": "/My-Portfolio/static/media/OmniConnx.be188a877ba2d6e6992d.png",
+    "static/media/MultiTask_Logo.png": "/My-Portfolio/static/media/MultiTask_Logo.a031fc0347129504b45f.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.b4d2e898.css.map": "/My-Portfolio/static/css/main.b4d2e898.css.map",
+    "main.67953752.js.map": "/My-Portfolio/static/js/main.67953752.js.map",
+    "787.48fbe5ec.chunk.js.map": "/My-Portfolio/static/js/787.48fbe5ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4d2e898.css",
+    "static/js/main.67953752.js"
+  ]
+}
