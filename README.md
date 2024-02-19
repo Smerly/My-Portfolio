@@ -38,4 +38,4 @@ If npm:
 npm start
 ```
 
-Run the app!!
+Run the app!!!
