@@ -37,3 +37,5 @@ If npm:
 ```bash
 npm start
 ```
+
+Run the app!!
